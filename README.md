@@ -8,7 +8,7 @@ Install dependencies:
 Connect MongoDB by pasting your URL:
 # Mongo URL 
 (Don't forget to add your current IP Address in MongoDB)</br>
-Usage
+Usage:</br>
 To run the project, use the following command:
 # npm run dev
 
