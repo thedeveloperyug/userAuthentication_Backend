@@ -17,14 +17,15 @@ The following APIs are available:
 
 ../api/users
 ../api/contacts
+</br>
 You can access the APIs using the following format: http://localhost:5001/api/<endpoint>
 
 <hr>
-Register a New User
-To register a new user, use the following API:
-API: ../api/users/register
-Method: POST
-JSON Data:
+Register a New User </br>
+To register a new user, use the following API:</br>
+API: ../api/users/register</br>
+Method: POST</br>
+JSON Data:</br>
 {
   "username":"test",
   "email" : "test@gmail.com",
@@ -33,37 +34,37 @@ JSON Data:
 
 <hr>
 
-User Login
-To log in as a user, use the following API:
-API: ../api/users/login
-Method: POST
-JSON Data:
+User Login </br>
+To log in as a user, use the following API: </br>
+API: ../api/users/login </br>
+Method: POST </br>
+JSON Data: </br>
 {
   "email" : "test@gmail.com",
   "password":"test123"
 }
-
+</br>
 Output: You'll get an Access token copy that token.
-
-
-<hr>
-
-Getting Users Data
-To get users' data, use the following API:
-API: ../api/contacts/
-Method: GET
-Send request with token that you copied:
-Thunder Client -> Auth -> Bearer -> (paste the token)
+</br>
 
 <hr>
 
-Creating Users Data
-To create a new user data, use the following API:
-API: ../api/contacts/
-Method: POST
-Send request with JSON and token that you copied:
-Thunder Client -> Auth -> Bearer -> (paste the token)
-JSON Data:
+Getting Users Data  </br> 
+To get users' data, use the following API:  </br>
+API: ../api/contacts/  </br>
+Method: GET   </br>
+Send request with token that you copied:   </br>
+Thunder Client -> Auth -> Bearer -> (paste the token)   </br>
+
+<hr>
+
+Creating Users Data </br>
+To create a new user data, use the following API: </br>
+API: ../api/contacts/ </br>
+Method: POST </br>
+Send request with JSON and token that you copied: </br>
+Thunder Client -> Auth -> Bearer -> (paste the token) </br>
+JSON Data: </br>
 {
   "username":"testdata",
   "email" : "testdata@gmail.com",
@@ -72,14 +73,14 @@ JSON Data:
 
 <hr>
 
-Updating Users Data
-To update a user data, use the following API:
-API: ../api/contacts/_id
-Replace _id with the unique_id of the user you want to update.
-Method: PUT
-Send request with JSON and token that you copied:
-Thunder Client -> Auth -> Bearer -> (paste the token)
-JSON Data:
+Updating Users Data </br>
+To update a user data, use the following API: </br>
+API: ../api/contacts/_id </br>
+Replace _id with the unique_id of the user you want to update. </br>
+Method: PUT </br>
+Send request with JSON and token that you copied: </br>
+Thunder Client -> Auth -> Bearer -> (paste the token) </br>
+JSON Data: </br>
 {
   "username":"testdataupdated",
   "email" : "testdatav1@gmail.com",
@@ -88,10 +89,10 @@ JSON Data:
 
 <hr>
 
-Deleting Users Data
-To delete a user data, use the following API:
-API: ../api/contacts/_id
-Replace _id with the unique_id of the user you want to delete.
-Method: DELETE
-Send request with token that you copied:
-Thunder Client -> Auth -> Bearer -> (paste the token)
+Deleting Users Data </br>
+To delete a user data, use the following API: </br>
+API: ../api/contacts/_id </br>
+Replace _id with the unique_id of the user you want to delete. </br>
+Method: DELETE </br>
+Send request with token that you copied: </br>
+Thunder Client -> Auth -> Bearer -> (paste the token) </br>
