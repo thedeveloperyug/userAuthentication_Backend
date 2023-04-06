@@ -66,7 +66,7 @@ Send request with JSON and token that you copied: </br>
 Thunder Client -> Auth -> Bearer -> (paste the token) </br>
 JSON Data: </br>
 {
-  "username":"testdata",
+  "name":"testdata",
   "email" : "testdata@gmail.com",
   "phone":"6734567890"
 }
