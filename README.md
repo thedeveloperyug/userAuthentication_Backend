@@ -1,5 +1,5 @@
-Installation
-To install the project, follow these steps:
+## Steps to run the project
+To run the project, follow these steps:
 
 Clone the repository
 Install dependencies: 
